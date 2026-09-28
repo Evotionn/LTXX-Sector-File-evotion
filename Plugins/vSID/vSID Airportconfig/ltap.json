@@ -1,0 +1,34 @@
+{
+  "LTAP": {
+    "elevation": 1798,
+    "runways": "05L,05R,23R,23L",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AP,AN13,ANKN,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "AKEDO": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "M": { "1": { "rwy": "05L,05R", "prio": 10 } },
+        "N": { "1": { "rwy": "05L,05R", "prio": 20 } },
+        "P": { "1": { "rwy": "23L,23R", "prio": 10 } },
+        "S": { "1": { "rwy": "23L,23R", "prio": 20 } }
+      },
+      "ERGUN": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "M": { "1": { "rwy": "05L,05R", "prio": 10 } },
+        "N": { "1": { "rwy": "05L,05R", "prio": 20 } },
+        "P": { "1": { "rwy": "23L,23R", "prio": 10 } },
+        "S": { "1": { "rwy": "23L,23R", "prio": 20 } }
+      },
+      "HAVZA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "M": { "1": { "rwy": "05L,05R", "prio": 10 } },
+        "N": { "1": { "rwy": "05L,05R", "prio": 20 } },
+        "P": { "1": { "rwy": "23L,23R", "prio": 10 } },
+        "S": { "1": { "rwy": "23L,23R", "prio": 20 } }
+      }
+    }
+  }
+}

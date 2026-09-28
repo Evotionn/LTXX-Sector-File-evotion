@@ -1,0 +1,84 @@
+{
+  "LTCF": {
+    "elevation": 5889,
+    "runways": "06R,06L,24L,24R",
+    "transAlt": 12000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN19,ANEN,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "EDASU": {
+        "A": {
+          "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "06L", "prio": 10 },
+          "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "06R", "prio": 40 },
+          "3": { "equip": {"NON-RNAV": true, "RNAV": true}, "wpt": "LUMEX", "sidHighlight": true, "rwy": "06L", "prio": 10 },
+          "4": { "equip": {"NON-RNAV": true, "RNAV": false}, "wpt": "LUMEX", "sidHighlight": true, "rwy": "06R", "prio": 40 }
+        },
+        "B": {
+          "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "24R", "prio": 10 },
+          "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "24L", "prio": 40 },
+          "3": { "equip": {"NON-RNAV": true, "RNAV": true}, "wpt": "LUMEX", "sidHighlight": true, "rwy": "24R", "prio": 10 },
+          "4": { "equip": {"NON-RNAV": true, "RNAV": false}, "wpt": "LUMEX", "sidHighlight": true, "rwy": "24L", "prio": 40 }
+        }
+      },
+      "EKPOS": {
+        "A": {
+          "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "06L", "prio": 10 },
+          "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "06R", "prio": 40 },
+          "3": { "equip": {"NON-RNAV": true, "RNAV": true}, "wpt": "REBLO", "sidHighlight": true, "rwy": "06L", "prio": 10 },
+          "4": { "equip": {"NON-RNAV": true, "RNAV": false}, "wpt": "REBLO", "sidHighlight": true, "rwy": "06R", "prio": 40 }
+        },
+        "B": {
+          "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "24L,24R", "prio": 10 },
+          "2": { "equip": {"NON-RNAV": true, "RNAV": true}, "wpt": "REBLO", "sidHighlight": true, "rwy": "24L,24R", "prio": 10 }
+        }
+      },
+      "LUMEX": {
+        "L": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "06R", "prio": 10 },
+          "2": { "wpt": "EDASU", "sidHighlight": true, "rwy": "06R", "prio": 10 }
+        },
+        "M": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "24L", "prio": 10 },
+          "2": { "wpt": "EDASU", "sidHighlight": true, "rwy": "24L", "prio": 10 }
+        }
+      },
+      "NIVLA": {
+        "A": {
+          "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "06L", "prio": 10 },
+          "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "06R", "prio": 40 },
+          "3": { "equip": {"NON-RNAV": true, "RNAV": true}, "wpt": "RAHMA", "sidHighlight": true, "rwy": "06L", "prio": 10 },
+          "4": { "equip": {"NON-RNAV": true, "RNAV": false}, "wpt": "RAHMA", "sidHighlight": true, "rwy": "06R", "prio": 40 }
+        },
+        "B": {
+          "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "24R", "prio": 10 },
+          "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "24L", "prio": 40 },
+          "3": { "equip": {"NON-RNAV": true, "RNAV": true}, "wpt": "RAHMA", "sidHighlight": true, "rwy": "24R", "prio": 10 },
+          "4": { "equip": {"NON-RNAV": true, "RNAV": false}, "wpt": "RAHMA", "sidHighlight": true, "rwy": "24L", "prio": 40 }
+        }
+      },
+      "RAHMA": {
+        "L": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "06R", "prio": 10 },
+          "2": { "wpt": "NIVLA", "sidHighlight": true, "rwy": "06R", "prio": 10 }
+        },
+        "M": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "24L", "prio": 10 },
+          "2": { "wpt": "NIVLA", "sidHighlight": true, "rwy": "24L", "prio": 10 }
+        }
+      },
+      "REBLO": {
+        "L": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "06R", "prio": 10 },
+          "2": { "wpt": "EKPOS", "sidHighlight": true, "rwy": "06R", "prio": 10 }
+        }
+      }
+    }
+  }
+}

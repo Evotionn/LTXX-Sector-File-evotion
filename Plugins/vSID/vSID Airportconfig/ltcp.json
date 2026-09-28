@@ -1,0 +1,31 @@
+{
+  "LTCP": {
+    "elevation": 2214,
+    "runways": "04,22",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN16,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ASKER": {
+        "D": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "04", "prio": 10 } },
+        "E": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "22", "prio": 10 } }
+      },
+      "ERH": {
+        "D": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "04", "prio": 10 } },
+        "E": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "22", "prio": 10 } }
+      },
+      "RASVA": {
+        "M": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "04", "prio": 10 } },
+        "N": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "22", "prio": 10 } }
+      },
+      "SONSU": {
+        "N": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "04", "prio": 10 } },
+        "A": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "04", "prio": 40 } },
+        "P": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "22", "prio": 10 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "22", "prio": 40 } }
+      }
+    }
+  }
+}

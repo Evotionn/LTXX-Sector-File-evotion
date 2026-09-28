@@ -1,0 +1,37 @@
+{
+  "LTCD": {
+    "elevation": 3791,
+    "runways": "10,28",
+    "transAlt": 15000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN18,ANEN,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "EZN": {
+        "A": { "1": { "rwy": "10", "wtc": "LM", "prio": 10 } },
+        "C": { "1": { "rwy": "10", "wtc": "LM", "prio": 20 } },
+        "B": { "1": { "rwy": "10", "wtc": "HJ", "prio": 10 }, "2": { "rwy": "10", "prio": 30 } },
+        "D": { "1": { "rwy": "10", "wtc": "HJ", "prio": 20 }, "2": { "rwy": "10", "prio": 40 } },
+        "E": { "1": { "rwy": "28", "prio": 10 } },
+        "F": { "1": { "rwy": "28", "prio": 20 } }
+      },
+      "KONUK": {
+        "A": { "1": { "rwy": "10", "wtc": "LM", "prio": 10 } },
+        "C": { "1": { "rwy": "10", "wtc": "LM", "prio": 20 } },
+        "B": { "1": { "rwy": "10", "wtc": "HJ", "prio": 10 }, "2": { "rwy": "10", "prio": 30 } },
+        "D": { "1": { "rwy": "10", "wtc": "HJ", "prio": 20 }, "2": { "rwy": "10", "prio": 40 } },
+        "E": { "1": { "rwy": "28", "prio": 10 } },
+        "F": { "1": { "rwy": "28", "prio": 20 } }
+      },
+      "ORHAN": {
+        "A": { "1": { "rwy": "10", "wtc": "LM", "prio": 10 } },
+        "C": { "1": { "rwy": "10", "wtc": "LM", "prio": 20 } },
+        "B": { "1": { "rwy": "10", "wtc": "HJ", "prio": 10 }, "2": { "rwy": "10", "prio": 30 } },
+        "D": { "1": { "rwy": "10", "wtc": "HJ", "prio": 20 }, "2": { "rwy": "10", "prio": 40 } },
+        "E": { "1": { "rwy": "28", "prio": 10 } },
+        "F": { "1": { "rwy": "28", "prio": 20 } }
+      }
+    }
+  }
+}

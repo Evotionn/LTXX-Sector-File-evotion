@@ -1,0 +1,186 @@
+{
+  "LTAI": {
+    "elevation": 177,
+    "runways": "18L,18C,18R,36L,36C,36R",
+    "transAlt": 15000,
+    "maxInitialClimb": 14000,
+    "customRules": {"opposite": false},
+    "appSI": "AIL, AI, ANK7, ANKS, ANKC, ANKA, ANK, W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 11000,
+      "EKNUD": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 }, "4": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18R", "prio": 90 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 }, "4": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36L", "prio": 90 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "EKSEN", "route": {"allow": {"1": "EKNUD"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "OSVEL": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "OSVEL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "OSVEL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "EKSEN", "route": {"allow": {"1": "OSVEL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "OSVEL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "EKSEN", "route": {"allow": {"1": "OSVEL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "EKSEN", "route": {"allow": {"1": "OSVEL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "EKSEN": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "KUMRU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "KUMRU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "KUMRU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "KUMRU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "KUMRU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "KUMRU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "HISAR": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "DAMLA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "DAMLA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "DAMLA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "DAMLA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "DAMLA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "DAMLA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "VAPEK": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UT62"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 }, "4": { "wpt": "PIDEV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UT62"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "KONAK", "route": {"allow": {"1": "UT62"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 }, "5": { "wpt": "PIDEV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "6": { "wpt": "PIDEV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UT62"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 }, "4": { "wpt": "PIDEV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UT62"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "KONAK", "route": {"allow": {"1": "UT62"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 }, "5": { "wpt": "PIDEV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "6": { "wpt": "PIDEV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "TEWHE": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UR55"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 }, "4": { "wpt": "ADBEL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UR55"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "KONAK", "route": {"allow": {"1": "UR55"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 }, "5": { "wpt": "ADBEL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "6": { "wpt": "ADBEL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UR55"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 }, "4": { "wpt": "ADBEL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "KONAK", "route": {"allow": {"1": "UR55"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "KONAK", "route": {"allow": {"1": "UR55"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 }, "5": { "wpt": "ADBEL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "6": { "wpt": "ADBEL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "VEMEK": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "MANAV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 }, "4": { "wpt": "GELKI", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "MANAV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "MANAV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 }, "5": { "wpt": "GELKI", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "6": { "wpt": "GELKI", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "MANAV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 }, "4": { "wpt": "GELKI", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "MANAV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "MANAV", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 }, "5": { "wpt": "GELKI", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "6": { "wpt": "GELKI", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "ALNYA": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "ADASU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 }, "4": { "wpt": "KULOL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "ADASU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "ADASU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 }, "5": { "wpt": "KULOL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "6": { "wpt": "KULOL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "ADASU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 }, "4": { "wpt": "KULOL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "ADASU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "ADASU", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 }, "5": { "wpt": "KULOL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "6": { "wpt": "KULOL", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "TOMBI": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "DERYA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "DERYA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "DERYA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "DERYA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "DERYA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "DERYA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "EVBOL": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "LAMSA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "LAMSA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "LAMSA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "LAMSA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "LAMSA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "LAMSA", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "LORKO": {
+        "L": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "ALPAY", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "K": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "ALPAY", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "ALPAY", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "J": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "ALPAY", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "F": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "ALPAY", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "ALPAY", "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } }
+      },
+      "KUMRU": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "M": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "T": { "1": { "rwy": "36C", "prio": 40 }, "2": { "rwy": "36L", "prio": 90 } },
+        "C": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 30 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 32 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "LAMSA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 } },
+        "Z": { "1": { "rwy": "18C", "prio": 40 }, "2": { "rwy": "18R", "prio": 90 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "DAMLA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "BRONZ": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "ERGIN": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "ALPAY": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "KONAK": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "ADASU": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "KULOL", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "KULOL", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "KULOL", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "KULOL", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "KULOL", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "KULOL", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "MANAV": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 }, "3": { "wpt": "GELKI", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "18C", "prio": 6 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 }, "3": { "wpt": "GELKI", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "18L", "area": "east", "prio": 2 }, "4": { "wpt": "GELKI", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 4 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 }, "3": { "wpt": "GELKI", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "36C", "prio": 6 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 }, "3": { "wpt": "GELKI", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "36R", "area": "east", "prio": 2 }, "4": { "wpt": "GELKI", "equip": {"RNAV": false, "NON-RNAV": true}, "sidHighlight": true, "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 4 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      },
+      "DERYA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "Y": { "1": { "rwy": "18C", "prio": 20 }, "2": { "rwy": "18R", "prio": 90 } },
+        "B": { "1": { "rwy": "18L", "area": "east", "prio": 10 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 12 } },
+        "F": { "1": { "rwy": "18L", "area": "east", "prio": 50 }, "2": { "rwy": "18L", "actDepRwy": {"deny": {"any": "18C,18R"}}, "prio": 52 } },
+        "T": { "1": { "rwy": "36C", "prio": 20 }, "2": { "rwy": "36L", "prio": 90 } },
+        "N": { "1": { "rwy": "36R", "area": "east", "prio": 10 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 12 } },
+        "H": { "1": { "rwy": "36R", "area": "east", "prio": 50 }, "2": { "rwy": "36R", "actDepRwy": {"deny": {"any": "36C,36L"}}, "prio": 52 } }
+      }
+    },
+    "areas": {
+      "east": {
+        "active": true,
+        "arrAsDep": true,
+        "p1": {"lat": "N036.52.48.152", "lon": "E030.47.57.339"},
+        "p2": {"lat": "N036.53.16.711", "lon": "E030.48.01.015"},
+        "p3": {"lat": "N036.53.17.929", "lon": "E030.47.51.553"},
+        "p4": {"lat": "N036.54.00.501", "lon": "E030.47.56.865"},
+        "p5": {"lat": "N036.54.28.776", "lon": "E030.48.01.042"},
+        "p6": {"lat": "N036.54.27.971", "lon": "E030.48.13.493"},
+        "p7": {"lat": "N036.54.54.471", "lon": "E030.48.18.117"},
+        "p8": {"lat": "N036.54.54.211", "lon": "E030.49.07.577"},
+        "p9": {"lat": "N036.52.42.367", "lon": "E030.48.45.575"}
+      }
+    }
+  }
+}

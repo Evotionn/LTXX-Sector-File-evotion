@@ -1,0 +1,95 @@
+{
+  "LTAD": {
+    "elevation": 2653,
+    "runways": "11L,11R,29L,29R",
+    "transAlt": 10000,
+    "maxInitialClimb": 16000,
+    "appSI": "ACF,AC,AN11,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 8000,
+      "ASTAL": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "AZBUL": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "BENTA": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "DEREL": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "EKMEK": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "ELQUL": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "GOBIT": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "HALIL": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "TELVO": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "UMRUN": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "YAVRU": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29R", "prio": 10 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11L", "prio": 40 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29R", "prio": 40 } }
+      },
+      "BAG": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "F": { "1": { "rwy": "11L", "prio": 10 } },
+        "G": { "1": { "rwy": "29R", "prio": 10 } }
+      },
+      "HAY": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "F": { "1": { "rwy": "11L", "prio": 10 } },
+        "G": { "1": { "rwy": "29R", "prio": 10 } },
+        "H": { "1": { "rwy": "29R", "prio": 20 } }
+      },
+      "PETAR": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "P": { "1": { "rwy": "11L", "prio": 10 } },
+        "R": { "1": { "rwy": "29R", "prio": 10 } }
+      }
+    }
+  }
+}

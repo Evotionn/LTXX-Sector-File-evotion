@@ -1,0 +1,61 @@
+{
+  "LTCE": {
+    "elevation": 3791,
+    "runways": "08L,08R,26R,26L",
+    "transAlt": 15000,
+    "maxInitialClimb": 24000,
+    "appSI": "CEA,AN18,ANEN,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ALVAR": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      },
+      "DAMAT": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      },
+      "GELIN": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      },
+      "HOCAM": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      },
+      "SUSUZ": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      },
+      "TAVUS": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      },
+      "TURNA": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      },
+      "VIRAN": {
+        "Y": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "08L", "prio": 10 } },
+        "L": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "08R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "08L", "prio": 40 } },
+        "B": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26R", "prio": 10 } },
+        "H": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "26L", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "26R", "prio": 40 } }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "LTAZ": {
+    "elevation": 10000,
+    "runways": "11,29",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AU,AN11,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "AZBUL": {
+        "A": { "1": { "rwy": "11", "prio": 10 } },
+        "Z": { "1": { "rwy": "11", "prio": 20 } },
+        "B": { "1": { "rwy": "29", "prio": 10 } }
+      },
+      "URGUP": {
+        "A": { "1": { "rwy": "11", "prio": 10 } },
+        "Z": { "1": { "rwy": "11", "prio": 20 } },
+        "B": { "1": { "rwy": "29", "prio": 10 } },
+        "Y": { "1": { "rwy": "29", "prio": 20 } }
+      }
+    }
+  }
+}

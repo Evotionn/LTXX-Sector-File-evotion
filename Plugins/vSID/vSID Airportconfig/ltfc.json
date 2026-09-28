@@ -1,0 +1,23 @@
+{
+  "LTFC": {
+    "elevation": 2835,
+    "runways": "05,23",
+    "transAlt": 15000,
+    "maxInitialClimb": 17000,
+    "appSI": "AI,ANK7,ANKS,ANKC,ANKA,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 17000,
+      "EKSEN": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "G": { "1": { "rwy": "05", "prio": 10 } },
+        "Q": { "1": { "rwy": "23", "prio": 10 } }
+      },
+      "PELIL": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "G": { "1": { "rwy": "05", "prio": 10 } },
+        "Q": { "1": { "rwy": "23", "prio": 10 } }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "LTAN": {
+    "elevation": 3392,
+    "runways": "01L,01R,19R,19L",
+    "transAlt": 10000,
+    "maxInitialClimb": 11000,
+    "appSI": "AN,ANK9,ANKS,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "HISAR": {
+        "initial": 11000,
+        "A": { "1": { "rwy": "01L,01R", "prio": 10 } },
+        "C": { "1": { "rwy": "01L,01R", "prio": 20 } },
+        "D": { "1": { "rwy": "19L,19R", "prio": 10 } },
+        "B": { "1": { "rwy": "19L,19R", "prio": 20 } }
+      },
+      "OBRUK": {
+        "initial": 11000,
+        "A": { "1": { "rwy": "01L,01R", "prio": 10 } },
+        "B": { "1": { "rwy": "19L,19R", "prio": 10 } },
+        "C": { "1": { "rwy": "19L,19R", "prio": 20 } },
+        "D": { "1": { "rwy": "01L,01R", "prio": 20 } },
+        "E": { "1": { "rwy": "19L,19R", "prio": 30 } },
+        "F": { "1": { "rwy": "19L,19R", "prio": 40 } }
+      },
+      "OKELI": {
+        "initial": 11000,
+        "A": { "1": { "rwy": "01L,01R", "prio": 10 } },
+        "B": { "1": { "rwy": "19L,19R", "prio": 20 } },
+        "C": { "1": { "rwy": "19L,19R", "prio": 10 } },
+        "D": { "1": { "rwy": "01L,01R", "prio": 20 } }
+      },
+      "SEHIR": {
+        "initial": 11000,
+        "A": { "1": { "rwy": "01L,01R", "prio": 10 } },
+        "B": { "1": { "rwy": "01L,01R", "prio": 20 } },
+        "C": { "1": { "rwy": "19L,19R", "prio": 10 } },
+        "D": { "1": { "rwy": "01L,01R", "prio": 30 } },
+        "E": { "1": { "rwy": "01L,01R", "prio": 40 } },
+        "F": { "1": { "rwy": "19L,19R", "prio": 20 } }
+      }
+    }
+  }
+}

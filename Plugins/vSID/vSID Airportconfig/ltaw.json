@@ -1,0 +1,45 @@
+{
+  "LTAW": {
+    "elevation": 1859,
+    "runways": "06,24",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN14,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ENFOR2A": {
+        "1": {
+          "wpt": "ENFOR",
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "rwy": "06",
+          "prio": 40
+        }
+      },
+      "ENFOR2B": {
+        "1": {
+          "wpt": "ENFOR",
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "rwy": "24",
+          "prio": 40
+        }
+      },
+      "ENFOR3A": {
+        "1": {
+          "wpt": "ENFOR",
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "rwy": "06",
+          "prio": 10
+        }
+      },
+      "ENFOR3B": {
+        "1": {
+          "wpt": "ENFOR",
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "rwy": "24",
+          "prio": 10
+        }
+      }
+    }
+  }
+}

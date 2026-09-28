@@ -1,0 +1,53 @@
+{
+  "LTAY": {
+    "elevation": 2797,
+    "runways": "05,23",
+    "transAlt": 12000,
+    "maxInitialClimb": 15000,
+    "appSI": "ANK6,ANWS,ANKW,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 15000,
+      "ATGIT": {
+        "N": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "05", "prio": 10 } },
+        "L": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "23", "prio": 10 } }
+      },
+      "BAGLU": {
+        "N": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "05", "prio": 10 } },
+        "M": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "05", "prio": 40 } },
+        "L": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "23", "prio": 10 } },
+        "K": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "23", "prio": 40 } }
+      },
+      "BALSU": {
+        "N": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "05", "prio": 10 } },
+        "M": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "05", "prio": 40 } },
+        "L": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "23", "prio": 10 } },
+        "K": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "23", "prio": 40 } }
+      },
+      "DESEM": {
+        "M": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "05", "prio": 40 } },
+        "K": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "23", "prio": 40 } }
+      },
+      "IPT": {
+        "L": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "PELIL", "sidHighlight": true, "rwy": "23", "prio": 10 } }
+      },
+      "KOZLU": {
+        "N": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "05", "prio": 10 } },
+        "D": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "05", "prio": 40 } },
+        "L": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "23", "prio": 10 } },
+        "K": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "23", "prio": 40 } }
+      },
+      "PELIL": {
+        "J": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "05", "prio": 10 }, "2": { "wpt": "IPT", "sidHighlight": true, "rwy": "05", "prio": 10 } },
+        "M": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "05", "prio": 40 }, "2": { "wpt": "IPT", "sidHighlight": true, "rwy": "05", "prio": 40 } },
+        "K": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "23", "prio": 40 }, "2": { "wpt": "IPT", "sidHighlight": true, "rwy": "23", "prio": 40 } }
+      },
+      "TAVAS": {
+        "N": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "05", "prio": 10 } },
+        "M": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "05", "prio": 40 } },
+        "L": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "23", "prio": 10 } },
+        "K": { "equip": {"RNAV": false, "NON-RNAV": true}, "1": { "rwy": "23", "prio": 40 } }
+      }
+    }
+  }
+}

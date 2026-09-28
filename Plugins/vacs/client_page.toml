@@ -1,0 +1,13 @@
+[client_page.configs.TRvACC]
+include = ["ANK_CTR", "ANK_*_CTR", "IST_*_APP", "LT*", "LBS*_CTR"]
+exclude = ["LTC_CTR", "LTC_*_CTR"]
+priority = ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
+frequencies = "ShowAll"
+grouping = "Icao"
+
+[client_page.configs.ANKCTR]
+include = ["ANK_CTR", "ANK_*_CTR", "IST_*_APP", "LT*", "LBS*_CTR", "LG*_CTR", "LCC*_CTR", "TEH*_CTR", "OSTT_CTR", "ORBB*_CTR", "UDDD_CTR", "UGGG_CTR", "URRV_CTR", "UKR_CTR"]
+exclude = ["LTC_CTR", "LTC_*_CTR"]
+priority = ["*_FMP", "*_CTR", "*_APP", "*_TWR", "*_GND"]
+frequencies = "ShowAll"
+grouping = "FirAndIcao"

@@ -1,0 +1,41 @@
+{
+  "LTAL": {
+    "elevation": 3524,
+    "runways": "18,36",
+    "transAlt": 12000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN13,ANKN,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "BAVBO": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "E": { "1": { "rwy": "18", "prio": 10 } },
+        "F": { "1": { "rwy": "36", "prio": 10 } }
+      },
+      "GIRNO": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "E": { "1": { "rwy": "18", "prio": 10 } },
+        "F": { "1": { "rwy": "36", "prio": 10 } }
+      },
+      "IBURA": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "E": { "1": { "rwy": "18", "prio": 10 } },
+        "F": { "1": { "rwy": "36", "prio": 10 } }
+      },
+      "INB": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "A": { "1": { "rwy": "36", "prio": 10 } },
+        "C": { "1": { "rwy": "18", "prio": 10 } },
+        "D": { "1": { "rwy": "18", "prio": 20 } }
+      },
+      "OSRIN": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "A": { "1": { "rwy": "36", "prio": 12 }, "2": { "wpt": "ORMAN", "sidHighlight": true, "rwy": "36", "prio": 10 } },
+        "B": { "1": { "rwy": "36", "prio": 22 }, "2": { "wpt": "ORMAN", "sidHighlight": true, "rwy": "36", "prio": 20 } },
+        "C": { "1": { "rwy": "18", "prio": 22 }, "2": { "wpt": "ORMAN", "sidHighlight": true, "rwy": "18", "prio": 20 } },
+        "D": { "1": { "rwy": "18", "prio": 12 }, "2": { "wpt": "ORMAN", "sidHighlight": true, "rwy": "18", "prio": 10 } }
+      }
+    }
+  }
+}

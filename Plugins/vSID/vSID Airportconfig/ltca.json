@@ -1,0 +1,47 @@
+{
+  "LTCA": {
+    "elevation": 2928,
+    "runways": "07L,07R,25L,25R",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN16,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ARPUT": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "D": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "25L", "prio": 10 } },
+        "C": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "25R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "25L", "prio": 40 } }
+      },
+      "BULUT": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "D": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "25L", "prio": 10 } },
+        "C": { "1": { "equip": {"NON-RNAV": true, "RNAV": true}, "rwy": "25R", "prio": 10 }, "2": { "equip": {"NON-RNAV": true, "RNAV": false}, "rwy": "25L", "prio": 40 } }
+      },
+      "ERGAN": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "25L,25R", "prio": 10 } }
+      },
+      "ERTEK": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "25L,25R", "prio": 10 } }
+      },
+      "FILIZ": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "25L,25R", "prio": 10 } }
+      },
+      "HAZAR": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "25L,25R", "prio": 10 } }
+      },
+      "PALUT": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "25L,25R", "prio": 10 } }
+      },
+      "SORAR": {
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "07L,07R", "prio": 10 } },
+        "C": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "25L,25R", "prio": 10 } }
+      }
+    }
+  }
+}

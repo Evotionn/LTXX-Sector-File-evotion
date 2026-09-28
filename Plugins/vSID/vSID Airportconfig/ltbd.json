@@ -1,0 +1,30 @@
+{
+  "LTBD": {
+    "elevation": 104,
+    "runways": "09,27",
+    "transAlt": 10000,
+    "maxInitialClimb": 10000,
+    "appSI": "ANK6,ANWS,ANKW,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 7000,
+      "LAVTA": {
+        "V": { "1": { "rwy": "09", "prio": 10 } },
+        "M": { "1": { "rwy": "09", "prio": 20 } },
+        "U": { "1": { "rwy": "27", "prio": 10 } }
+      },
+      "NODKO": {
+        "V": { "1": { "rwy": "09", "prio": 10 } },
+        "U": { "1": { "rwy": "27", "prio": 10 } }
+      },
+      "OKESA": {
+        "V": { "1": { "rwy": "09", "prio": 10 } },
+        "U": { "1": { "rwy": "27", "prio": 10 } }
+      },
+      "OZNEF": {
+        "V": { "1": { "rwy": "09", "prio": 10 } },
+        "U": { "1": { "rwy": "27", "prio": 10 } }
+      }
+    }
+  }
+}

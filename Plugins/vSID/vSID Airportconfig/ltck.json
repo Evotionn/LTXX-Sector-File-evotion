@@ -1,0 +1,21 @@
+{
+  "LTCK": {
+    "elevation": 4157,
+    "runways": "11L,11R,29L,29R",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN17,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "BAYIR": {
+        "A": { "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "1": { "rwy": "29R", "prio": 10 } }
+      },
+      "VARTO": {
+        "A": { "1": { "rwy": "11L", "prio": 10 } },
+        "B": { "1": { "rwy": "29R", "prio": 10 } }
+      }
+    }
+  }
+}

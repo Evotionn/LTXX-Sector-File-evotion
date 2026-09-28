@@ -1,0 +1,54 @@
+{
+  "LTCB": {
+    "elevation": 11,
+    "runways": "10,28",
+    "transAlt": 12000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN18,ANEN,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ARSUG": {
+        "U": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "10", "prio": 10 },
+          "2": { "wpt": "EMLAD", "sidHighlight": true, "rwy": "10", "prio": 10 }
+        }
+      },
+      "EMLAD": {
+        "M": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "10", "prio": 40 }
+        },
+        "N": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "28", "prio": 10 },
+          "2": { "wpt": "ARSUG", "sidHighlight": true, "rwy": "28", "prio": 10 }
+        },
+        "L": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "28", "prio": 40 },
+          "2": { "wpt": "ARSUG", "sidHighlight": true, "rwy": "28", "prio": 40 }
+        }
+      },
+      "IPSAT": {
+        "U": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "10", "prio": 10 }
+        },
+        "M": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "10", "prio": 40 }
+        },
+        "N": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "28", "prio": 10 }
+        },
+        "L": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "28", "prio": 40 }
+        }
+      }
+    }
+  }
+}

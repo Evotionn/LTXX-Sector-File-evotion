@@ -1,0 +1,4 @@
+pluginDir=C:\Users\Terminal\Desktop\LTXX-Full-Pack_20260927153734-260901-0017\LTXX\Plugins\ShortMetar\
+esePath=C:\Users\Terminal\Desktop\LTXX-Full-Pack_20260927153734-260901-0017\LTXX\Plugins\ShortMetar\..\..\..\LTXX-SECTOR-FILE_20260927153734-260901-0017.ese
+positions=325
+sectorIdentifiers=245

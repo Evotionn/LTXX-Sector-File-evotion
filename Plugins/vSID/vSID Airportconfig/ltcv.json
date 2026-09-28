@@ -1,0 +1,25 @@
+{
+  "LTCV": {
+    "elevation": 2041,
+    "runways": "11,29",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN17,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ABDIK": {
+        "C": {
+          "1": { "rwy": "11", "prio": 10 },
+          "2": { "wpt": "ULSAB", "sidHighlight": true, "rwy": "11", "prio": 10 }
+        },
+        "E": { "1": { "rwy": "11", "prio": 20 } },
+        "B": { "1": { "rwy": "29", "prio": 10 } },
+        "D": { "1": { "rwy": "29", "prio": 20 } }
+      },
+      "ULSAB": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29", "prio": 10 } }
+      }
+    }
+  }
+}

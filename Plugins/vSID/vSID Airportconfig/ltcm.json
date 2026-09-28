@@ -1,0 +1,21 @@
+{
+  "LTCM": {
+    "elevation": 32,
+    "runways": "05,23",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN13,ANKN,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "GERZE": {
+        "U": { "1": { "rwy": "05", "prio": 10 } },
+        "T": { "1": { "rwy": "23", "prio": 10 } }
+      },
+      "SUNUM": {
+        "U": { "1": { "rwy": "05", "prio": 10 } },
+        "T": { "1": { "rwy": "23", "prio": 10 } }
+      }
+    }
+  }
+}

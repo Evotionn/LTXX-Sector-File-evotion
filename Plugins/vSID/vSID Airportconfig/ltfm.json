@@ -1,0 +1,432 @@
+{
+  "LTFM": {
+    "elevation": 325,
+    "runways": "09,16R,16L,17R,17L,18,34L,34R,35L,35R,36",
+    "transAlt": 12000,
+    "maxInitialClimb": 8000,
+    "customRules": {"opposite": false},
+    "appSI": "SAD,SCF,SWD,SED,ISTW,ISTE,ANK3,ANWN,ANKW,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "ASFON": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "G": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 6 },
+          "2": { "wpt": "XXX", "rwy": "18", "initial": 8000, "area": "east", "prio": 8 },
+          "3": { "rwy": "18", "initial": 8000, "prio": 45 },
+          "4": { "wpt": "XXX", "rwy": "18", "initial": 8000, "prio": 50 }
+        }
+      },
+      "BARPE": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "Y": {
+          "1": { "rwy": "09", "initial": 6000, "customRule": "opposite", "area": "east", "prio": 1, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "customRule": "opposite", "prio": 32, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} }
+        },
+        "C": { "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15 } },
+        "D": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "34L,34R"}} } },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "36", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        },
+        "F": { "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "17L,17R"}} } },
+        "G": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15 } },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "rwy": "18", "initial": 8000, "prio": 38 }
+        },
+        "V": {
+          "1": { "rwy": "18", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2 },
+          "2": { "rwy": "18", "initial": 8000, "customRule": "opposite", "prio": 34 }
+        }
+      },
+      "CEK": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "S": {
+          "1": { "rwy": "34L,34R", "initial": 4000, "prio": 99 }
+        }
+      },
+      "EKAWE": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "2": { "wpt": "OSMEV", "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "4": { "wpt": "OSMEV", "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "2": { "wpt": "OSMEV", "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "4": { "wpt": "OSMEV", "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "5": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} },
+          "6": { "wpt": "OSMEV", "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "C": {
+          "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} },
+          "2": { "wpt": "OSMEV", "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} }
+        },
+        "D": {
+          "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15 },
+          "2": { "wpt": "OSMEV", "rwy": "35L,35R", "initial": 5000, "prio": 15 }
+        },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "wpt": "OSMEV", "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "3": { "rwy": "36", "initial": 8000, "prio": 38 },
+          "4": { "wpt": "OSMEV", "rwy": "36", "initial": 8000, "prio": 38 }
+        },
+        "F": {
+          "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15 },
+          "2": { "wpt": "OSMEV", "rwy": "16L,16R", "initial": 4000, "prio": 15 }
+        },
+        "G": {
+          "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} },
+          "2": { "wpt": "OSMEV", "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} }
+        },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "wpt": "OSMEV", "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "3": { "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} },
+          "4": { "wpt": "OSMEV", "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        }
+      },
+      "ELCAH": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "K": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 6 },
+          "2": { "wpt": "XXX", "rwy": "36", "initial": 8000, "area": "east", "prio": 8 },
+          "3": { "rwy": "36", "initial": 8000, "prio": 45 },
+          "4": { "wpt": "XXX", "rwy": "36", "initial": 8000, "prio": 50 }
+        }
+      },
+      "ELNIN": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "K": {
+          "1": { "rwy": "35L,35R", "initial": 5000, "prio": 21 },
+          "2": { "wpt": "XXX", "rwy": "35L,35R", "initial": 5000, "prio": 26 }
+        }
+      },
+      "GAPDI": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "G": {
+          "1": { "rwy": "17L,17R", "initial": 5000, "prio": 21 },
+          "2": { "wpt": "XXX", "rwy": "17L,17R", "initial": 5000, "prio": 26 }
+        }
+      },
+      "IBLAL": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "2": { "wpt": "IBLAX", "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "4": { "wpt": "IBLAX", "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "2": { "wpt": "IBLAX", "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "4": { "wpt": "IBLAX", "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "5": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} },
+          "6": { "wpt": "IBLAX", "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "C": {
+          "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} },
+          "2": { "wpt": "IBLAX", "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} }
+        },
+        "D": {
+          "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15 },
+          "2": { "wpt": "IBLAX", "rwy": "35L,35R", "initial": 5000, "prio": 15 }
+        },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "wpt": "IBLAX", "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "3": { "rwy": "36", "initial": 8000, "prio": 38 },
+          "4": { "wpt": "IBLAX", "rwy": "36", "initial": 8000, "prio": 38 }
+        },
+        "F": {
+          "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15 },
+          "2": { "wpt": "IBLAX", "rwy": "16L,16R", "initial": 4000, "prio": 15 }
+        },
+        "G": {
+          "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} },
+          "2": { "wpt": "IBLAX", "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} }
+        },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "wpt": "IBLAX", "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "3": { "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} },
+          "4": { "wpt": "IBLAX", "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        }
+      },
+      "IST": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "N": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 99 } },
+        "P": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 98 } },
+        "S": { "1": { "rwy": "36", "initial": 8000, "prio": 99 } }
+      },
+      "IVGUS": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "Y": {
+          "1": { "rwy": "09", "initial": 6000, "customRule": "opposite", "area": "east", "prio": 1, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "customRule": "opposite", "prio": 32, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} }
+        },
+        "C": { "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15 } },
+        "D": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "34L,34R"}} } },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "36", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        },
+        "F": { "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "17L,17R"}} } },
+        "G": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15 } },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "rwy": "18", "initial": 8000, "prio": 38 }
+        },
+        "V": {
+          "1": { "rwy": "18", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2 },
+          "2": { "rwy": "18", "initial": 8000, "customRule": "opposite", "prio": 34 }
+        }
+      },
+      "LESQE": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "G": {
+          "1": { "rwy": "16L,16R", "initial": 4000, "prio": 20 },
+          "2": { "wpt": "XXX", "rwy": "16L,16R", "initial": 4000, "prio": 25 }
+        }
+      },
+      "MAKOL": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "C": { "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} } },
+        "D": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15 } },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "rwy": "36", "initial": 8000, "prio": 38 }
+        },
+        "F": { "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15 } },
+        "G": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} } },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        }
+      },
+      "RATVU": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "Y": {
+          "1": { "rwy": "09", "initial": 6000, "customRule": "opposite", "area": "east", "prio": 1, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "customRule": "opposite", "prio": 32, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} }
+        },
+        "C": { "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15 } },
+        "D": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "34L,34R"}} } },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "36", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        },
+        "F": { "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "17L,17R"}} } },
+        "G": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15 } },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "rwy": "18", "initial": 8000, "prio": 38 }
+        },
+        "U": { "1": { "rwy": "17L,17R", "initial": 5000, "customRule": "opposite", "prio": 12 } },
+        "V": {
+          "1": { "rwy": "18", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2 },
+          "2": { "rwy": "18", "initial": 8000, "customRule": "opposite", "prio": 34 }
+        }
+      },
+      "REZOV": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "2": { "wpt": "ETUBA", "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "4": { "wpt": "ETUBA", "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "2": { "wpt": "ETUBA", "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "4": { "wpt": "ETUBA", "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "5": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} },
+          "6": { "wpt": "ETUBA", "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "C": {
+          "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} },
+          "2": { "wpt": "ETUBA", "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} }
+        },
+        "D": {
+          "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15 },
+          "2": { "wpt": "ETUBA", "rwy": "35L,35R", "initial": 5000, "prio": 15 }
+        },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "wpt": "ETUBA", "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "3": { "rwy": "36", "initial": 8000, "prio": 38 },
+          "4": { "wpt": "ETUBA", "rwy": "36", "initial": 8000, "prio": 38 }
+        },
+        "F": {
+          "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15 },
+          "2": { "wpt": "ETUBA", "rwy": "16L,16R", "initial": 4000, "prio": 15 }
+        },
+        "G": {
+          "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} },
+          "2": { "wpt": "ETUBA", "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} }
+        },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "wpt": "ETUBA", "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "3": { "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} },
+          "4": { "wpt": "ETUBA", "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        }
+      },
+      "TUDBU": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "C": { "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "35L,35R"}} } },
+        "D": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15 } },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "rwy": "36", "initial": 8000, "prio": 38 }
+        },
+        "F": { "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15 } },
+        "G": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} } },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        }
+      },
+      "VADEN": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R"}, "deny": {"any": "36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R,18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "C": { "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15 } },
+        "D": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "34L,34R"}} } },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "rwy": "36", "initial": 8000, "prio": 38 }
+        },
+        "F": { "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15 } },
+        "G": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "16L,16R"}} } },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        }
+      },
+      "VICEN": {
+        "equip": {"RNAV": true, "NON-RNAV": false},
+        "L": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} }
+        },
+        "M": {
+          "1": { "rwy": "09", "initial": 6000, "area": "east", "prio": 3, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "prio": 36, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "3": { "rwy": "09", "initial": 6000, "prio": 40, "actDepRwy": {"deny": {"any": "16L,16R,17L,17R,18,34L,34R,35L,35R,36"}} }
+        },
+        "Y": {
+          "1": { "rwy": "09", "initial": 6000, "customRule": "opposite", "area": "east", "prio": 1, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} },
+          "2": { "rwy": "09", "initial": 6000, "customRule": "opposite", "prio": 32, "actDepRwy": {"allow": {"any": "16L,16R,17L,17R"}, "deny": {"any": "18"}} }
+        },
+        "Z": {
+          "1": { "rwy": "09", "initial": 6000, "customRule": "opposite", "area": "east", "prio": 1, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} },
+          "2": { "rwy": "09", "initial": 6000, "customRule": "opposite", "prio": 32, "actDepRwy": {"allow": {"any": "34L,34R,35L,35R,36"}} }
+        },
+        "C": { "1": { "rwy": "34L,34R", "initial": 4000, "prio": 15 } },
+        "D": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 15, "actDepRwy": {"deny": {"any": "34L,34R"}} } },
+        "E": {
+          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 4, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "36", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
+        },
+        "F": { "1": { "rwy": "16L,16R", "initial": 4000, "prio": 15, "actDepRwy": {"deny": {"any": "17L,17R"}} } },
+        "G": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 15 } },
+        "H": {
+          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 4 },
+          "2": { "rwy": "18", "initial": 8000, "prio": 38 }
+        },
+        "Q": { "1": { "rwy": "34L,34R", "initial": 4000, "customRule": "opposite", "prio": 12 } },
+        "R": { "1": { "rwy": "35L,35R", "initial": 5000, "customRule": "opposite", "prio": 12, "actDepRwy": {"deny": {"any": "34L,34R"}} } },
+        "S": {
+          "1": { "rwy": "36", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2, "actDepRwy": {"deny": {"any": "09"}} },
+          "2": { "rwy": "36", "initial": 8000, "customRule": "opposite", "prio": 34, "actDepRwy": {"deny": {"any": "09"}} }
+        },
+        "T": { "1": { "rwy": "16L,16R", "initial": 4000, "customRule": "opposite", "prio": 12, "actDepRwy": {"deny": {"any": "17L,17R"}} } },
+        "U": { "1": { "rwy": "17L,17R", "initial": 5000, "customRule": "opposite", "prio": 12 } },
+        "V": {
+          "1": { "rwy": "18", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2 },
+          "2": { "rwy": "18", "initial": 8000, "customRule": "opposite", "prio": 34 }
+        }
+      },
+      "YAQZI": {
+        "equip": {"RNAV": false, "NON-RNAV": true},
+        "K": {
+          "1": { "rwy": "34L,34R", "initial": 4000, "prio": 20 },
+          "2": { "wpt": "XXX", "rwy": "34L,34R", "initial": 4000, "prio": 25 }
+        }
+      }
+    },
+    "areas": {
+      "east": {
+        "active": true,
+        "arrAsDep": false,
+        "p1": {"lat": "N041.16.24.426", "lon": "E028.44.32.304"},
+        "p2": {"lat": "N041.16.24.621", "lon": "E028.44.45.486"},
+        "p3": {"lat": "N041.16.37.695", "lon": "E028.44.45.227"},
+        "p4": {"lat": "N041.16.38.183", "lon": "E028.45.43.769"},
+        "p5": {"lat": "N041.14.51.054", "lon": "E028.45.53.461"},
+        "p6": {"lat": "N041.14.49.688", "lon": "E028.44.32.433"},
+        "p7": {"lat": "N041.16.09.129", "lon": "E028.44.32.570"}
+      }
+    }
+  }
+}

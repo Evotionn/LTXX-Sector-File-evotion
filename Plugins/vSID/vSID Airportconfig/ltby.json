@@ -1,0 +1,33 @@
+{
+  "LTBY": {
+    "elevation": 2599,
+    "runways": "09,27",
+    "transAlt": 10000,
+    "maxInitialClimb": 14000,
+    "appSI": "BI,ANK4,ANWN,ANKW,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 9000,
+      "EKMEL": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "09", "prio": 10 } },
+        "Y": { "1": { "rwy": "27", "prio": 10 } }
+      },
+      "KARGI": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "F": { "1": { "rwy": "09", "prio": 10 } },
+        "G": { "1": { "rwy": "27", "prio": 10 } }
+      },
+      "SULTA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "09", "prio": 10 } },
+        "Y": { "1": { "rwy": "27", "prio": 10 } }
+      },
+      "TOKER": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "B": { "1": { "rwy": "09", "prio": 10 } },
+        "C": { "1": { "rwy": "27", "prio": 10 } }
+      }
+    }
+  }
+}

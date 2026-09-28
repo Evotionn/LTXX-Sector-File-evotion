@@ -1,0 +1,42 @@
+{
+    "LTAF": {
+        "elevation": 63,
+        "runways": "05,23",
+        "transAlt": 10000,
+        "maxInitialClimb": 15000,
+        "appSI": "AG,AN15,ANKC,ANKA,ANK",
+        "enableRVSids": false,
+        "sids": {
+            "KEMER": {
+                "A": { "1": { "rwy": "05", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "C": { "1": { "rwy": "05", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "B": { "1": { "rwy": "23", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "E": { "1": { "rwy": "23", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } }
+            },
+            "MANAZ": {
+                "A": { "1": { "rwy": "05", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "C": { "1": { "rwy": "05", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "B": { "1": { "rwy": "23", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "E": { "1": { "rwy": "23", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } }
+            },
+            "MILBA": {
+                "A": { "1": { "rwy": "05", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "C": { "1": { "rwy": "05", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "B": { "1": { "rwy": "23", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "E": { "1": { "rwy": "23", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } }
+            },
+            "YAPZU": {
+                "A": { "1": { "rwy": "05", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "C": { "1": { "rwy": "05", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "B": { "1": { "rwy": "23", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "E": { "1": { "rwy": "23", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } }
+            },
+            "TUNLA": {
+                "A": { "1": { "rwy": "05", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "C": { "1": { "rwy": "05", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "B": { "1": { "rwy": "23", "prio": 1, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } },
+                "E": { "1": { "rwy": "23", "prio": 2, "initial": 5000, "equip": {"NON-RNAV": true, "RNAV": true} } }
+            }
+        }
+    }
+}

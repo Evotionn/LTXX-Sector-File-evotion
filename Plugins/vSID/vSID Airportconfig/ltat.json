@@ -1,0 +1,43 @@
+{
+  "LTAT": {
+    "elevation": 2837,
+    "runways": "03R,03L,21R,21L",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AT,AN16,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "DIGIL": {
+        "F": { "1": { "rwy": "03L,03R", "prio": 10 } },
+        "N": { "1": { "rwy": "03L,03R", "prio": 20 } },
+        "E": { "1": { "rwy": "21L,21R", "prio": 10 } },
+        "M": { "1": { "rwy": "21L,21R", "prio": 20 } }
+      },
+      "OKUDU": {
+        "F": { "1": { "rwy": "03L,03R", "prio": 10 } },
+        "N": { "1": { "rwy": "03L,03R", "prio": 20 } },
+        "E": { "1": { "rwy": "21L,21R", "prio": 10 } },
+        "M": { "1": { "rwy": "21L,21R", "prio": 20 } }
+      },
+      "RASVA": {
+        "F": { "1": { "rwy": "03L,03R", "prio": 10 } },
+        "N": { "1": { "rwy": "03L,03R", "prio": 20 } },
+        "E": { "1": { "rwy": "21L,21R", "prio": 10 } },
+        "M": { "1": { "rwy": "21L,21R", "prio": 20 } }
+      },
+      "SONSU": {
+        "F": { "1": { "rwy": "03L,03R", "prio": 10 } },
+        "N": { "1": { "rwy": "03L,03R", "prio": 20 } },
+        "E": { "1": { "rwy": "21L,21R", "prio": 10 } },
+        "M": { "1": { "rwy": "21L,21R", "prio": 20 } }
+      },
+      "UREBO": {
+        "F": { "1": { "rwy": "03L,03R", "prio": 10 } },
+        "N": { "1": { "rwy": "03L,03R", "prio": 20 } },
+        "E": { "1": { "rwy": "21L,21R", "prio": 10 } },
+        "M": { "1": { "rwy": "21L,21R", "prio": 20 } }
+      }
+    }
+  }
+}

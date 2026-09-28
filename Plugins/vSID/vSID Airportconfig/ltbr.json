@@ -1,0 +1,27 @@
+{
+  "LTBR": {
+    "elevation": 763,
+    "runways": "07L,07R,25L,25R",
+    "transAlt": 12000,
+    "maxInitialClimb": 14000,
+    "appSI": "ISTE,ISTW,ANK4,ANWN,ANKW,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 10000,
+      "UNWAN": {
+        "B": { "1": { "rwy": "07L", "prio": 10 } },
+        "D": { "1": { "rwy": "25R", "prio": 10 } }
+      },
+      "SULTA": {
+        "A": { "1": { "rwy": "07L", "prio": 10 } },
+        "B": { "1": { "rwy": "07L", "prio": 20 } },
+        "C": { "1": { "rwy": "25R", "prio": 10 } },
+        "D": { "1": { "rwy": "25R", "prio": 20 } }
+      },
+      "YAA": {
+        "B": { "1": { "rwy": "07L", "prio": 10 } },
+        "D": { "1": { "rwy": "25R", "prio": 10 } }
+      }
+    }
+  }
+}

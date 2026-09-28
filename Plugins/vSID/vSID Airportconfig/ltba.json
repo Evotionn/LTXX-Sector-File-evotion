@@ -1,0 +1,104 @@
+{
+  "LTBA": {
+    "elevation": 94,
+    "runways": "05,23",
+    "transAlt": 12000,
+    "maxInitialClimb": 10000,
+    "customRules": {"opposite": false},
+    "appSI": "SCF,SAD,ISTW,ISTE,ANK3,ANWN,ANKW,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "VADEN": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "VADEN"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "23", "prio": 11 } },
+        "P": { "initial": 3000, "customRule": "opposite", "sidHighlight": true, "1": { "rwy": "23", "prio": 12 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "VADEN"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "rwy": "23", "prio": 13 } }
+      },
+      "TUDBU": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "TUDBU"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "23", "prio": 11 } },
+        "P": { "initial": 3000, "customRule": "opposite", "sidHighlight": true, "1": { "rwy": "23", "prio": 12 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "TUDBU"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "rwy": "23", "prio": 13 } }
+      },
+      "REZOV": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "REZOV"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "23", "prio": 11 } },
+        "P": { "initial": 3000, "customRule": "opposite", "sidHighlight": true, "1": { "rwy": "23", "prio": 12 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "REZOV"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "rwy": "23", "prio": 13 } }
+      },
+      "IBLAL": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "IBLAL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "23", "prio": 11 } },
+        "P": { "initial": 3000, "customRule": "opposite", "sidHighlight": true, "1": { "rwy": "23", "prio": 12 }, "2": { "wpt": "FENER", "route": {"allow": {"1": "IBLAL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "rwy": "23", "prio": 13 } }
+      },
+      "MAKOL": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 }, "2": { "wpt": "ERTAS", "route": {"allow": {"1": "MAKOL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "05", "prio": 11 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "ERTAS", "route": {"allow": {"1": "MAKOL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "23", "prio": 11 } },
+        "P": { "initial": 3000, "customRule": "opposite", "sidHighlight": true, "1": { "rwy": "23", "prio": 12 }, "2": { "wpt": "ERTAS", "route": {"allow": {"1": "MAKOL"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "rwy": "23", "prio": 13 } }
+      },
+      "EKAWE": {
+        "A": {
+          "initial": 3000,
+          "1": { "rwy": "05", "prio": 10 },
+          "2": { "wpt": "OSMEV", "sidHighlight": true, "rwy": "05", "prio": 10 }
+        },
+        "B": {
+          "initial": 3000,
+          "1": { "rwy": "23", "prio": 10 },
+          "2": { "wpt": "OSMEV", "sidHighlight": true, "rwy": "23", "prio": 10 }
+        },
+        "P": {
+          "initial": 3000,
+          "customRule": "opposite",
+          "sidHighlight": true,
+          "1": { "rwy": "23", "prio": 12 },
+          "2": { "wpt": "OSMEV", "rwy": "23", "prio": 12 }
+        }
+      },
+      "VICEN": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 }, "2": { "wpt": "ASMAP", "equip": {"RNAV": true, "NON-RNAV": true}, "sidHighlight": true, "rwy": "05", "prio": 11 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "ASMAP", "equip": {"RNAV": true, "NON-RNAV": true}, "sidHighlight": true, "rwy": "23", "prio": 11 } }
+      },
+      "ROXUK": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 } }
+      },
+      "IVGUS": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 } },
+        "P": { "initial": 3000, "customRule": "opposite", "sidHighlight": true, "1": { "rwy": "23", "prio": 12 } }
+      },
+      "BARPE": {
+        "A": { "initial": 3000, "1": { "rwy": "05", "prio": 10 } },
+        "B": { "initial": 3000, "1": { "rwy": "23", "prio": 10 }, "2": { "wpt": "EKI", "route": {"allow": {"1": "BARPE"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "sidHighlight": true, "rwy": "23", "prio": 11 } },
+        "P": { "initial": 3000, "customRule": "opposite", "sidHighlight": true, "1": { "rwy": "23", "prio": 12 }, "2": { "wpt": "EKI", "route": {"allow": {"1": "BARPE"}}, "equip": {"RNAV": true, "NON-RNAV": false}, "rwy": "23", "prio": 13 } }
+      },
+      "FENER": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "G": { "initial": 3000, "1": { "rwy": "23", "prio": 5 } }
+      },
+      "ERTAS": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "N": { "initial": 3000, "1": { "rwy": "05", "prio": 5 } },
+        "M": { "initial": 3000, "1": { "rwy": "05", "prio": 4 } },
+        "G": { "initial": 3000, "1": { "rwy": "23", "prio": 5 } }
+      },
+      "EKI": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "G": { "initial": 3000, "1": { "rwy": "23", "prio": 5 } }
+      },
+      "BKZ": {
+        "dest": {"LTFM": true, "LTFJ": true},
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "N": { "initial": 5000, "1": { "rwy": "05", "prio": 5 } },
+        "P": { "initial": 5000, "1": { "rwy": "23", "prio": 5 } }
+      },
+      "YAA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "N": { "initial": 3000, "1": { "rwy": "05", "prio": 5 } },
+        "G": { "initial": 3000, "1": { "rwy": "23", "prio": 5 } }
+      },
+      "BIG": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "G": { "initial": 3000, "1": { "rwy": "23", "prio": 5 } }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "LTCI": {
+    "elevation": 5475,
+    "runways": "03,21",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN17,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "BAYIR": {
+        "Z": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "03", "prio": 10 } },
+        "G": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "03", "prio": 40 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "21", "prio": 10 } }
+      },
+      "BEYAZ": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "F": { "1": { "rwy": "03", "wtc": "LM", "prio": 10 } },
+        "K": { "1": { "rwy": "03", "wtc": "HJ", "prio": 10 } },
+        "H": { "1": { "rwy": "03", "prio": 40 } },
+        "P": { "1": { "rwy": "21", "wtc": "HJ", "prio": 10 } },
+        "C": { "1": { "rwy": "21", "wtc": "LM", "prio": 10 } },
+        "L": { "1": { "rwy": "21", "prio": 40 } }
+      },
+      "BOZLO": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "U": { "1": { "rwy": "03", "prio": 10 } },
+        "T": { "1": { "rwy": "21", "prio": 10 } }
+      },
+      "DORUK": {
+        "Z": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "03", "prio": 10 } },
+        "G": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "03", "prio": 40 } },
+        "D": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "21", "prio": 10 } }
+      },
+      "ESENK": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "H": { "1": { "rwy": "03", "prio": 10 } },
+        "F": { "1": { "rwy": "03", "prio": 20 } },
+        "C": { "1": { "rwy": "21", "prio": 10 } },
+        "L": { "1": { "rwy": "21", "prio": 20 } }
+      },
+      "ZELSU": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "F": { "1": { "rwy": "03", "prio": 10 } },
+        "H": { "1": { "rwy": "03", "prio": 20 } },
+        "C": { "1": { "rwy": "21", "prio": 10 } },
+        "L": { "1": { "rwy": "21", "prio": 20 } }
+      }
+    }
+  }
+}

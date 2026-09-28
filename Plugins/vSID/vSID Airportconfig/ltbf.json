@@ -1,0 +1,72 @@
+{
+  "LTBF": {
+    "elevation": 340,
+    "runways": "18,36",
+    "transAlt": 10000,
+    "maxInitialClimb": 4000,
+    "appSI": "BFT,ANK5",
+    "enableRVSids": false,
+    "sids": {
+      "DUGLA": {
+        "initial": 4000,
+        "Z": {
+          "1": {
+            "rwy": "18",
+            "prio": 10
+          }
+        },
+        "X": {
+          "1": {
+            "rwy": "36",
+            "prio": 20
+          }
+        }
+      },
+      "ESKIN": {
+        "initial": 4000,
+        "Z": {
+          "1": {
+            "rwy": "18",
+            "prio": 10
+          }
+        },
+        "X": {
+          "1": {
+            "rwy": "36",
+            "prio": 10
+          }
+        }
+      },
+      "KONEN": {
+        "initial": 4000,
+        "Z": {
+          "1": {
+            "rwy": "18",
+            "prio": 10
+          }
+        },
+        "X": {
+          "1": {
+            "rwy": "36",
+            "prio": 20
+          }
+        }
+      },
+      "OVACI": {
+        "initial": 4000,
+        "Z": {
+          "1": {
+            "rwy": "18",
+            "prio": 10
+          }
+        },
+        "X": {
+          "1": {
+            "rwy": "36",
+            "prio": 20
+          }
+        }
+      }
+    }
+  }
+}

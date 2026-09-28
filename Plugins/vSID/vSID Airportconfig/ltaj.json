@@ -1,0 +1,69 @@
+{
+  "LTAJ": {
+    "elevation": 2305,
+    "runways": "10,28",
+    "transAlt": 10000,
+    "maxInitialClimb": 16000,
+    "appSI": "AN15,ANKS,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 16000,
+      "ADRES": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "10", "prio": 40 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "28", "prio": 40 } }
+      },
+      "ARPAG": {
+        "P": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "10", "prio": 10 }, "2": { "wpt": "ADRES", "sidHighlight": true, "rwy": "10", "prio": 10 } },
+        "M": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "28", "prio": 10 }, "2": { "wpt": "ADRES", "sidHighlight": true, "rwy": "28", "prio": 10 } }
+      },
+      "ARTAR": {
+        "M": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "28", "prio": 10 }, "2": { "wpt": "NIZIP", "sidHighlight": true, "rwy": "28", "prio": 10 } }
+      },
+      "ASBOM": {
+        "P": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "10", "prio": 10 }, "2": { "wpt": "BOYAT", "sidHighlight": true, "rwy": "10", "prio": 10 }, "3": { "wpt": "POGEN", "sidHighlight": true, "rwy": "10", "prio": 10 } }
+      },
+      "BOYAT": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "10", "prio": 40 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "28", "prio": 40 } }
+      },
+      "BUPUN": {
+        "P": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "10", "prio": 10 }, "2": { "wpt": "FIRAT", "sidHighlight": true, "rwy": "10", "prio": 10 } },
+        "M": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "28", "prio": 10 }, "2": { "wpt": "FIRAT", "sidHighlight": true, "rwy": "28", "prio": 10 } }
+      },
+      "ELGEX": {
+        "P": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "10", "prio": 10 }, "2": { "wpt": "SUGAT", "sidHighlight": true, "rwy": "10", "prio": 10 } },
+        "M": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "28", "prio": 10 }, "2": { "wpt": "SUGAT", "sidHighlight": true, "rwy": "28", "prio": 10 } }
+      },
+      "FIRAT": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "10", "prio": 40 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "28", "prio": 40 } }
+      },
+      "KIVZE": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "10", "prio": 40 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "28", "prio": 40 } }
+      },
+      "KOZAN": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "10", "prio": 40 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "28", "prio": 40 } }
+      },
+      "MILBA": {
+        "P": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "10", "prio": 10 }, "2": { "wpt": "KOZAN", "sidHighlight": true, "rwy": "10", "prio": 10 } },
+        "M": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "28", "prio": 10 }, "2": { "wpt": "KOZAN", "sidHighlight": true, "rwy": "28", "prio": 10 } }
+      },
+      "NIZIP": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "10", "prio": 40 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "28", "prio": 40 } }
+      },
+      "POGEN": {
+        "M": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "28", "prio": 10 }, "2": { "wpt": "BOYAT", "sidHighlight": true, "rwy": "28", "prio": 10 }, "3": { "wpt": "ASBOM", "sidHighlight": true, "rwy": "28", "prio": 10 } }
+      },
+      "SUGAT": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "10", "prio": 40 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "28", "prio": 40 } }
+      },
+      "SURUC": {
+        "P": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "10", "prio": 10 }, "2": { "wpt": "NIZIP", "sidHighlight": true, "rwy": "10", "prio": 10 } }
+      }
+    }
+  }
+}

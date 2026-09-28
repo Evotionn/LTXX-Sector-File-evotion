@@ -1,0 +1,29 @@
+{
+  "LTFG": {
+    "elevation": 126,
+    "runways": "08,26",
+    "transAlt": 15000,
+    "maxInitialClimb": 14000,
+    "appSI": "AIL,AI,ANK9,ANKS,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 8000,
+      "ATSUB": {
+        "T": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "26", "prio": 10 },
+          "2": { "wpt": "EVKOR", "sidHighlight": true, "rwy": "26", "prio": 10 }
+        }
+      },
+      "BATNU": {
+        "T": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26", "prio": 10 } }
+      },
+      "ELROP": {
+        "T": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "26", "prio": 10 } }
+      },
+      "EVKOR": {
+        "A": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "26", "prio": 40 } }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "LTCJ": {
+    "elevation": 1831,
+    "runways": "02,20",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN17,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "DYB": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "P": { "1": { "rwy": "02", "prio": 10 } },
+        "F": { "1": { "rwy": "02", "prio": 20 } },
+        "G": { "1": { "rwy": "20", "prio": 10 } },
+        "H": { "1": { "rwy": "20", "prio": 20 } }
+      },
+      "LEKRO": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "E": { "1": { "rwy": "02", "prio": 10 } },
+        "F": { "1": { "rwy": "02", "prio": 20 } },
+        "G": { "1": { "rwy": "20", "prio": 10 } },
+        "H": { "1": { "rwy": "20", "prio": 20 } }
+      },
+      "SUMAP": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "E": { "1": { "rwy": "02", "prio": 10 } },
+        "F": { "1": { "rwy": "02", "prio": 20 } },
+        "G": { "1": { "rwy": "20", "prio": 10 } },
+        "H": { "1": { "rwy": "20", "prio": 20 } }
+      }
+    }
+  }
+}

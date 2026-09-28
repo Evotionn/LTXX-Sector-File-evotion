@@ -1,0 +1,52 @@
+{
+  "LTCS": {
+    "elevation": 2708,
+    "runways": "04,22",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN16,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ARTAR": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "A": { "1": { "rwy": "04", "prio": 10 } },
+        "C": { "1": { "rwy": "04", "prio": 20 } },
+        "B": { "1": { "rwy": "22", "prio": 10 } },
+        "D": { "1": { "rwy": "22", "prio": 20 } }
+      },
+      "BADEM": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "A": { "1": { "rwy": "04", "prio": 10 } },
+        "C": { "1": { "rwy": "04", "prio": 20 } },
+        "B": { "1": { "rwy": "22", "prio": 10 } },
+        "D": { "1": { "rwy": "22", "prio": 20 } }
+      },
+      "EKTEL": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "A": { "1": { "rwy": "04", "wtc": "LM", "prio": 10 }, "2": { "rwy": "04", "prio": 30 } },
+        "Y": { "1": { "rwy": "04", "wtc": "LM", "prio": 20 }, "2": { "rwy": "04", "prio": 40 } },
+        "B": { "1": { "rwy": "04", "wtc": "HJ", "prio": 10 }, "2": { "rwy": "04", "prio": 50 } },
+        "Z": { "1": { "rwy": "04", "wtc": "HJ", "prio": 20 }, "2": { "rwy": "04", "prio": 60 } },
+        "C": { "1": { "rwy": "22", "wtc": "LM", "prio": 10 }, "2": { "rwy": "22", "prio": 30 } },
+        "G": { "1": { "rwy": "22", "wtc": "LM", "prio": 20 }, "2": { "rwy": "22", "prio": 40 } },
+        "D": { "1": { "rwy": "22", "wtc": "HJ", "prio": 10 }, "2": { "rwy": "22", "prio": 50 } },
+        "H": { "1": { "rwy": "22", "wtc": "HJ", "prio": 20 }, "2": { "rwy": "22", "prio": 60 } }
+      },
+      "LUTAM": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "A": { "1": { "rwy": "04", "prio": 10 } },
+        "C": { "1": { "rwy": "04", "prio": 20 } },
+        "B": { "1": { "rwy": "22", "prio": 10 } },
+        "D": { "1": { "rwy": "22", "prio": 20 } }
+      },
+      "MAVES": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "A": { "1": { "rwy": "04", "prio": 10 } },
+        "C": { "1": { "rwy": "04", "prio": 20 } },
+        "B": { "1": { "rwy": "22", "prio": 10 } },
+        "D": { "1": { "rwy": "22", "prio": 20 } }
+      }
+    }
+  }
+}

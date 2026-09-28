@@ -1,0 +1,31 @@
+{
+  "LTCT": {
+    "elevation": 3102,
+    "runways": "12,30",
+    "transAlt": 19000,
+    "maxInitialClimb": 24000,
+    "appSI": "AN19,ANEN,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ETISI": {
+        "A": {
+          "1": { "rwy": "30", "prio": 10 },
+          "2": { "wpt": "YAVUZ", "sidHighlight": true, "rwy": "30", "prio": 10 }
+        }
+      },
+      "ULKUR": {
+        "A": {
+          "1": { "rwy": "12", "prio": 10 },
+          "2": { "wpt": "ARI", "sidHighlight": true, "rwy": "12", "prio": 10 }
+        }
+      },
+      "YAVUZ": {
+        "A": {
+          "1": { "rwy": "12", "prio": 10 },
+          "2": { "wpt": "ETISI", "sidHighlight": true, "rwy": "12", "prio": 10 }
+        }
+      }
+    }
+  }
+}

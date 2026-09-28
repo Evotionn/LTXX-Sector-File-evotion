@@ -1,0 +1,14 @@
+{
+    "mach":{
+        "digits":2,
+        "thresholdFL":250,
+		"prefix":"m"
+    },
+    "ias":{
+		"prefix":""
+	},
+    "weather":{
+		"url":"https://smart.vatsim-turkiye.org/api/webservice/ltxx/weather",
+		"update":15
+	}
+}

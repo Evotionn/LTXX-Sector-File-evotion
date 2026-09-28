@@ -1,0 +1,89 @@
+{
+  "LTCG": {
+    "elevation": 102,
+    "runways": "11,29",
+    "transAlt": 10000,
+    "maxInitialClimb": 14000,
+    "appSI": "CG,AN18,ANEN,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 5000,
+      "ABVEX": {
+        "G": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "29", "prio": 10 },
+          "2": { "wpt": "NETPU", "sidHighlight": true, "rwy": "29", "prio": 10 }
+        }
+      },
+      "ARLAT": {
+        "G": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "29", "prio": 10 },
+          "2": { "wpt": "TEMEL", "sidHighlight": true, "rwy": "29", "prio": 10 }
+        }
+      },
+      "ATPUM": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11", "prio": 10 } },
+        "U": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11", "prio": 40 } },
+        "G": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29", "prio": 10 } },
+        "M": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29", "prio": 40 } }
+      },
+      "BAVTI": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11", "prio": 10 } },
+        "G": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29", "prio": 10 } }
+      },
+      "DELEL": {
+        "G": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "29", "prio": 10 }
+        }
+      },
+      "ERIDU": {
+        "U": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11", "prio": 10 } },
+        "X": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11", "prio": 20 } },
+        "M": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29", "prio": 10 } }
+      },
+      "NETPU": {
+        "A": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "11", "prio": 10 },
+          "2": { "wpt": "ABVEX", "sidHighlight": true, "rwy": "11", "prio": 10 },
+          "3": { "wpt": "DELEL", "sidHighlight": true, "rwy": "11", "prio": 10 }
+        },
+        "U": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11", "prio": 40 } },
+        "M": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29", "prio": 40 } }
+      },
+      "NIVAX": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11", "prio": 10 } },
+        "U": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11", "prio": 40 } },
+        "G": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29", "prio": 10 } },
+        "M": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29", "prio": 40 } }
+      },
+      "PIXAP": {
+        "A": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "11", "prio": 10 } },
+        "G": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "29", "prio": 10 } }
+      },
+      "TEMEL": {
+        "A": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "11", "prio": 10 },
+          "2": { "wpt": "ARLAT", "sidHighlight": true, "rwy": "11", "prio": 10 }
+        },
+        "U": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "11", "prio": 40 } },
+        "M": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "29", "prio": 40 } }
+      },
+      "TOLUN": {
+        "A": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "11", "prio": 10 },
+          "2": { "wpt": "ERIDU", "sidHighlight": true, "rwy": "11", "prio": 10 }
+        },
+        "G": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "29", "prio": 10 },
+          "2": { "wpt": "ERIDU", "sidHighlight": true, "rwy": "29", "prio": 10 }
+        }
+      }
+    }
+  }
+}

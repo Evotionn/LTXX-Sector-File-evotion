@@ -1,0 +1,55 @@
+{
+  "LTCC": {
+    "elevation": 2260,
+    "runways": "16R,16L,34L,34R",
+    "transAlt": 10000,
+    "maxInitialClimb": 24000,
+    "appSI": "CC,AN16,ANES,ANKE,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 24000,
+      "ATLOM": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "16L,16R", "prio": 10 } },
+        "X": { "1": { "rwy": "16L,16R", "prio": 20 } },
+        "J": { "1": { "rwy": "34L,34R", "prio": 10 } },
+        "Y": { "1": { "rwy": "34L,34R", "prio": 20 } }
+      },
+      "DEMEB": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "16L,16R", "prio": 10 } },
+        "X": { "1": { "rwy": "16L,16R", "prio": 20 } },
+        "J": { "1": { "rwy": "34L,34R", "prio": 10 } },
+        "Y": { "1": { "rwy": "34L,34R", "prio": 20 } }
+      },
+      "LEKRO": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "16L,16R", "prio": 10 } },
+        "X": { "1": { "rwy": "16L,16R", "prio": 20 } },
+        "J": { "1": { "rwy": "34L,34R", "prio": 10 } },
+        "Y": { "1": { "rwy": "34L,34R", "prio": 20 } }
+      },
+      "MOVUL": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "16L,16R", "prio": 10 } },
+        "X": { "1": { "rwy": "16L,16R", "prio": 20 } },
+        "J": { "1": { "rwy": "34L,34R", "prio": 10 } },
+        "Y": { "1": { "rwy": "34L,34R", "prio": 20 } }
+      },
+      "SUMAP": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "16L,16R", "prio": 10 } },
+        "X": { "1": { "rwy": "16L,16R", "prio": 20 } },
+        "J": { "1": { "rwy": "34L,34R", "prio": 10 } },
+        "Y": { "1": { "rwy": "34L,34R", "prio": 20 } }
+      },
+      "ZUITA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "W": { "1": { "rwy": "16L,16R", "prio": 10 } },
+        "X": { "1": { "rwy": "16L,16R", "prio": 20 } },
+        "J": { "1": { "rwy": "34L,34R", "prio": 10 } },
+        "Y": { "1": { "rwy": "34L,34R", "prio": 20 } }
+      }
+    }
+  }
+}

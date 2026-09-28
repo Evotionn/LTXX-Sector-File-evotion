@@ -1,0 +1,25 @@
+{
+  "LTBQ": {
+    "elevation": 188,
+    "runways": "09,27",
+    "transAlt": 12000,
+    "maxInitialClimb": 14000,
+    "appSI": "ISTE,ISTW,ANK3,ANWN,ANKW,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 8000,
+      "ASMAP": {
+        "A": { "1": { "rwy": "27", "prio": 10 } },
+        "B": { "1": { "rwy": "09", "prio": 10 } }
+      },
+      "ERKAL": {
+        "A": { "1": { "rwy": "27", "prio": 10 } },
+        "B": { "1": { "rwy": "09", "prio": 10 } }
+      },
+      "PIMAV": {
+        "A": { "1": { "rwy": "27", "prio": 10 } },
+        "B": { "1": { "rwy": "09", "prio": 10 } }
+      }
+    }
+  }
+}

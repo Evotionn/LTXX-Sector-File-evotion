@@ -1,0 +1,21 @@
+{
+    "LTAS": {
+        "elevation": 44,
+        "runways": "18,36",
+        "transAlt": 10000,
+        "maxInitialClimb": 24000,
+		"appSI": "AN12,ANKN,ANKC,ANKA,ANK",
+		"enableRVSids": false,
+        "sids": {
+			"EVLAP": {
+                "initial": 24000,
+                "D":{
+                    "1": {
+                        "rwy": "18",
+                        "prio": 1
+                    }
+                }
+			}
+		}
+    }
+}

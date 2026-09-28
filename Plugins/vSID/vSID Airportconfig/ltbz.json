@@ -1,0 +1,40 @@
+{
+  "LTBZ": {
+    "elevation": 3327,
+    "runways": "13,31",
+    "transAlt": 10000,
+    "maxInitialClimb": 22000,
+    "appSI": "ANK8,ANKS,ANKC,ANKA,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 22000,
+      "AFYO": {
+        "E": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "wpt": "KFK", "sidHighlight": true, "rwy": "13", "prio": 10 }, "2": { "rwy": "13", "prio": 20 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "wpt": "KFK", "sidHighlight": true, "rwy": "13", "prio": 10 }, "2": { "rwy": "13", "prio": 20 } },
+        "D": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "wpt": "KFK", "sidHighlight": true, "rwy": "31", "prio": 10 }, "2": { "rwy": "31", "prio": 20 } },
+        "A": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "wpt": "KFK", "sidHighlight": true, "rwy": "31", "prio": 10 }, "2": { "rwy": "31", "prio": 20 } }
+      },
+      "APSER": {
+        "E": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "13", "prio": 10 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "13", "prio": 10 } },
+        "A": { "equip": {"NON-RNAV": true, "RNAV": true}, "1": { "rwy": "31", "prio": 10 } }
+      },
+      "KARGI": {
+        "E": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "13", "prio": 10 } },
+        "M": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "13", "prio": 10 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "13", "prio": 20 } },
+        "D": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "31", "prio": 10 } },
+        "K": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "31", "prio": 10 } },
+        "A": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "31", "prio": 20 } }
+      },
+      "TUMER": {
+        "E": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "13", "prio": 10 } },
+        "M": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "13", "prio": 10 } },
+        "B": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "13", "prio": 20 } },
+        "D": { "equip": {"RNAV": true, "NON-RNAV": false}, "1": { "rwy": "31", "prio": 10 } },
+        "K": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "31", "prio": 10 } },
+        "A": { "equip": {"NON-RNAV": true, "RNAV": false}, "1": { "rwy": "31", "prio": 20 } }
+      }
+    }
+  }
+}

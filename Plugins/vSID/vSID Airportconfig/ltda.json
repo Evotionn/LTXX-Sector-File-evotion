@@ -1,0 +1,27 @@
+{
+  "LTDA": {
+    "elevation": 256,
+    "runways": "04,22",
+    "transAlt": 10000,
+    "maxInitialClimb": 15000,
+    "appSI": "AN15,ANKS,ANKC,ANKA,ANK",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 15000,
+      "ADA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "X": { "1": { "rwy": "04", "prio": 10 } },
+        "Z": { "1": { "rwy": "04", "prio": 20 } },
+        "W": { "1": { "rwy": "22", "prio": 10 } },
+        "Y": { "1": { "rwy": "22", "prio": 20 } }
+      },
+      "MILBA": {
+        "equip": {"NON-RNAV": true, "RNAV": true},
+        "X": { "1": { "rwy": "04", "prio": 10 } },
+        "Z": { "1": { "rwy": "04", "prio": 20 } },
+        "W": { "1": { "rwy": "22", "prio": 10 } },
+        "Y": { "1": { "rwy": "22", "prio": 20 } }
+      }
+    }
+  }
+}

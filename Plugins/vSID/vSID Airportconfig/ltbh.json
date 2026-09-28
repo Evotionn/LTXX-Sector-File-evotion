@@ -1,0 +1,71 @@
+{
+  "LTBH": {
+    "elevation": 30,
+    "runways": "04,22",
+    "transAlt": 10000,
+    "maxInitialClimb": 14000,
+    "appSI": "BHA,ANK2,ANWN,ANKW,ANK,W78",
+    "enableRVSids": false,
+    "sids": {
+      "initial": 14000,
+      "BIG": {
+        "L": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "04", "prio": 10 }
+        },
+        "U": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "rwy": "22", "prio": 10 }
+        },
+        "A": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "04", "prio": 10 }
+        },
+        "C": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "04", "prio": 20 }
+        },
+        "M": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "04", "prio": 30 }
+        },
+        "N": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "04", "prio": 40 }
+        },
+        "B": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "22", "prio": 10 }
+        },
+        "D": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "22", "prio": 20 }
+        },
+        "F": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "22", "prio": 30 }
+        },
+        "H": {
+          "equip": {"NON-RNAV": true, "RNAV": false},
+          "1": { "rwy": "22", "prio": 40 }
+        }
+      },
+      "OLDOK": {
+        "L": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "dest": {"LTFM": true, "LTFJ": true}, "wpt": "BIG", "sidHighlight": true, "rwy": "04", "prio": 2 },
+          "2": { "dest": {"LTFM": true, "LTFJ": true}, "rwy": "04", "prio": 4 },
+          "3": { "rwy": "04", "prio": 10 }
+        }
+      },
+      "SUVUP": {
+        "Y": {
+          "equip": {"RNAV": true, "NON-RNAV": false},
+          "1": { "dest": {"LTFM": true, "LTFJ": true}, "wpt": "BIG", "sidHighlight": true, "rwy": "22", "prio": 2 },
+          "2": { "dest": {"LTFM": true, "LTFJ": true}, "rwy": "22", "prio": 4 },
+          "3": { "rwy": "22", "prio": 10 }
+        }
+      }
+    }
+  }
+}
