@@ -7,7 +7,7 @@ This repository contains non-automatically generated files from our sector file 
 - Manuals
 
 ## Contributing
-Anyone is welcome to contribute to this project via pull requests.
+Anyone can contribute. Open a pull request and a member of the sector-file team will review it before it is merged. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Bugs, feedback & suggestions
 We use GitHub's issue board to track all sector file-related matters:
