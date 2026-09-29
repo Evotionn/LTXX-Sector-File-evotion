@@ -1,8 +1,8 @@
 {
   "name": "LTAA",
   "id": "241b57e9-61e6-432c-adfe-4db21030df33",
-  "updateUrl": "",
-  "updateSerial": 1234,
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-Turkiye/LTXX-Sector-File/refs/heads/main/Plugins/vATIS/vATIS%20Profile%20-%20LTAA.json",
+  "updateSerial": 2026092900,
   "stations": [
     {
       "id": "8b753578-b3c6-4497-8d4f-bccb1859a507",
