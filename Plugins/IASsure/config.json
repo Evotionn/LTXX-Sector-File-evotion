@@ -8,7 +8,7 @@
 		"prefix":""
 	},
     "weather":{
-		"url":"https://smart.vatsim-turkiye.org/api/webservice/ltxx/weather",
+		"url":"https://wx.vatsim.tr/api/regions/LTXX/wx",
 		"update":15
 	}
 }
