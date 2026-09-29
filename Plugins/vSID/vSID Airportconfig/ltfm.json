@@ -8,15 +8,6 @@
     "appSI": "SAD,SCF,SWD,SED,ISTW,ISTE,ANK3,ANWN,ANKW,ANK,W78",
     "enableRVSids": false,
     "sids": {
-      "ASFON": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "G": {
-          "1": { "rwy": "18", "initial": 8000, "area": "east", "prio": 6 },
-          "2": { "wpt": "XXX", "rwy": "18", "initial": 8000, "area": "east", "prio": 8 },
-          "3": { "rwy": "18", "initial": 8000, "prio": 45 },
-          "4": { "wpt": "XXX", "rwy": "18", "initial": 8000, "prio": 50 }
-        }
-      },
       "BARPE": {
         "equip": {"RNAV": true, "NON-RNAV": false},
         "L": {
@@ -47,12 +38,6 @@
         "V": {
           "1": { "rwy": "18", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2 },
           "2": { "rwy": "18", "initial": 8000, "customRule": "opposite", "prio": 34 }
-        }
-      },
-      "CEK": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "S": {
-          "1": { "rwy": "34L,34R", "initial": 4000, "prio": 99 }
         }
       },
       "EKAWE": {
@@ -100,29 +85,6 @@
           "4": { "wpt": "OSMEV", "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
         }
       },
-      "ELCAH": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "K": {
-          "1": { "rwy": "36", "initial": 8000, "area": "east", "prio": 6 },
-          "2": { "wpt": "XXX", "rwy": "36", "initial": 8000, "area": "east", "prio": 8 },
-          "3": { "rwy": "36", "initial": 8000, "prio": 45 },
-          "4": { "wpt": "XXX", "rwy": "36", "initial": 8000, "prio": 50 }
-        }
-      },
-      "ELNIN": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "K": {
-          "1": { "rwy": "35L,35R", "initial": 5000, "prio": 21 },
-          "2": { "wpt": "XXX", "rwy": "35L,35R", "initial": 5000, "prio": 26 }
-        }
-      },
-      "GAPDI": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "G": {
-          "1": { "rwy": "17L,17R", "initial": 5000, "prio": 21 },
-          "2": { "wpt": "XXX", "rwy": "17L,17R", "initial": 5000, "prio": 26 }
-        }
-      },
       "IBLAL": {
         "equip": {"RNAV": true, "NON-RNAV": false},
         "L": {
@@ -168,12 +130,6 @@
           "4": { "wpt": "IBLAX", "rwy": "18", "initial": 8000, "prio": 38, "actDepRwy": {"deny": {"any": "09"}} }
         }
       },
-      "IST": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "N": { "1": { "rwy": "35L,35R", "initial": 5000, "prio": 99 } },
-        "P": { "1": { "rwy": "17L,17R", "initial": 5000, "prio": 98 } },
-        "S": { "1": { "rwy": "36", "initial": 8000, "prio": 99 } }
-      },
       "IVGUS": {
         "equip": {"RNAV": true, "NON-RNAV": false},
         "L": {
@@ -204,13 +160,6 @@
         "V": {
           "1": { "rwy": "18", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2 },
           "2": { "rwy": "18", "initial": 8000, "customRule": "opposite", "prio": 34 }
-        }
-      },
-      "LESQE": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "G": {
-          "1": { "rwy": "16L,16R", "initial": 4000, "prio": 20 },
-          "2": { "wpt": "XXX", "rwy": "16L,16R", "initial": 4000, "prio": 25 }
         }
       },
       "MAKOL": {
@@ -405,13 +354,6 @@
         "V": {
           "1": { "rwy": "18", "initial": 8000, "customRule": "opposite", "area": "east", "prio": 2 },
           "2": { "rwy": "18", "initial": 8000, "customRule": "opposite", "prio": 34 }
-        }
-      },
-      "YAQZI": {
-        "equip": {"RNAV": false, "NON-RNAV": true},
-        "K": {
-          "1": { "rwy": "34L,34R", "initial": 4000, "prio": 20 },
-          "2": { "wpt": "XXX", "rwy": "34L,34R", "initial": 4000, "prio": 25 }
         }
       }
     },
