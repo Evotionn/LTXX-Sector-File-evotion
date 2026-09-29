@@ -1,3 +1,0 @@
-discovered=T8mkW-IVCJLnn0LMMsebO
-fallback=T8mkW-IVCJLnn0LMMsebO
-using=T8mkW-IVCJLnn0LMMsebO
